@@ -16,6 +16,14 @@ html {
   box-sizing: inherit;
 }
 
+.ear {
+  transform: translateY(0);
+}
+
+.ear:hover {
+  transform: translateY(-10px);
+}
+
 .left-eye {
   animation: eye-slide 1s linear infinite alternate;
 }
