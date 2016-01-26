@@ -15,3 +15,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.left-eye {
+  animation: eye-slide 1s linear infinite alternate;
+}
+
+.right-eye {
+  animation: eye-slide 1s linear infinite alternate;
+}
+
+@keyframes eye-slide {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(10px, 0);
+  }
+}
+
